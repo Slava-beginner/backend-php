@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 20px;
+    white-space: nowrap;
+    align-self: center;
+}
+fieldset{
+    border: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.radion__btn{
+    display: flex;
+    gap: 10px;
+}
+a{
+    display:block;
+    margin: 0 auto;
+    width: max-content;
+}
+input[type="submit"]{
+    margin-bottom: 15px;
+}
+textarea{
+    margin: 0 auto;
+    display: block;
+}
+
+.input_container{
+    display: flex;
+    
+}
